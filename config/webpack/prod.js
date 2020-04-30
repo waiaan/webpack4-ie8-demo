@@ -1,5 +1,5 @@
 const merge = require('webpack-merge');
-const base = require('./webpack.base');
+const base = require('./base');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = merge(base, {
@@ -7,5 +7,5 @@ module.exports = merge(base, {
   devtool: 'source-map',
   plugins: [
     new CleanWebpackPlugin()
-  ],
+  ]
 })

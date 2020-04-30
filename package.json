@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack-dev-server  --config ./config/webpack/webpack.dev.js",
-    "build": "webpack --config ./config/webpack/webpack.prod.js"
+    "serve": "webpack-dev-server  --config ./config/webpack/dev.js",
+    "build": "webpack --config ./config/webpack/prod.js"
   },
   "keywords": [
     "webpack4",
@@ -20,10 +20,19 @@
     "@babel/runtime": "^7.3.4",
     "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
     "core-js": "^3.0.1",
     "css-loader": "^3.5.3",
     "es5-shim": "^4.5.14",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
     "style-loader": "^1.2.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.20.2",
